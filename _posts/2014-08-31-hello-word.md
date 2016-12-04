@@ -3,7 +3,7 @@ title: Ullamco Laboris minim veniam
 layout: post
 ---
 
-![]({{ site.baseurl }}/assets/images/pic03.jpg)
+![]({{ site.baseurl }}/assets/images/pic003.jpg)
 {: .image.featured}
 
 ### Consectetur tempor ut dolore
