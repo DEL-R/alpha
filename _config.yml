@@ -2,13 +2,13 @@ name: Challenge Sport Rouen
 description: Coaching Sportif et Développement Personnel sur Rendez-vous
 
 ### Local ###
-baseurl: ''
-url: 'http://127.0.0.1:4000'
+# baseurl: ''
+# url: 'http://127.0.0.1:4000'
 #############
 
 ### Prod ####
-# baseurl: '/alpha/'
-# url: 'https://del-r.github.io'
+baseurl: '/alpha/'
+url: 'https://del-r.github.io'
 #############
 
 paginate: 10
