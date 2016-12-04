@@ -7,7 +7,7 @@ description: Coaching Sportif et Développement Personnel sur Rendez-vous
 #############
 
 ### Prod ####
-baseurl: '/alpha/'
+baseurl: '/alpha'
 url: 'https://del-r.github.io'
 #############
 
