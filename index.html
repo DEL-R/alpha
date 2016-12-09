@@ -8,7 +8,7 @@ layout: default
 		<h2>Challenge Sport Rouen</h2>
 		<p>Coaching Sportif et Développement Personnel sur Rendez-vous.</p>
 	</header>
-	<span class="image featured"><img src="https://source.unsplash.com/featured/1200x400/?sports" /><!-- <img src="{{ site.baseurl }}/assets/images/pic001.jpg" alt="" /> --></span>
+	<span class="image featured"><img src="{{ site.baseurl }}/assets/images/pic001.jpg" alt="" /></span>
 	<!-- start slipsum code -->
 
 <h2>Votre corps est votre futur</h2>
@@ -48,11 +48,12 @@ layout: default
 	<div class="6u">
 
 		<section class="box special">
-			<span class="image featured"><img src="http://loremflickr.com/576/256/training,sport,fitness/all?random=1" /><!-- <img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /> --></span>
+			<span class="image featured"><img src="http://loremflickr.com/500/200/training,sport,fitness/all?random=1" /><!-- <img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /> --></span>
 			<h3>YOUTUBE</h3>
-			<iframe id="player" type="text/html" width="480" height="385"
+			{% include youmax.html %}
+			<!-- <iframe id="player" type="text/html" width="480" height="385"
 			src="http://www.youtube.com/embed?listType=user_uploads&list=bodytimeXpress"
-			frameborder="0"></iframe>
+			frameborder="0"></iframe> -->
 			<ul class="actions">
 				<li><a href="#" class="button alt"><i class="icon fa-youtube"></i>&nbsp;&nbsp; Voir la Chaîne &nbsp;&nbsp;<i class="icon fa-youtube"></i></a></li>
 			</ul>
@@ -61,7 +62,7 @@ layout: default
 	</div>
 	<div class="6u">
 		<section class="box special">
-			<span class="image featured"><img src="http://loremflickr.com/576/256/training,sport,fitness/all?random=2" /></span>
+			<span class="image featured"><img src="http://loremflickr.com/500/200/training,sport,fitness/all?random=2" /></span>
 			<h3>FACEBOOK</h3>
 			<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fchallengesportrouen&tabs=timeline%2Cevents%2Cmessages&width=440&height=780&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=670045823168276" width="450" height="800" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>
 			<ul class="actions">

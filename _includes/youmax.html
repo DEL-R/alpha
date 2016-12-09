@@ -1,0 +1,72 @@
+	
+        <!--Youmax Container-->
+        <div class="youmax"></div>
+        <!-- ends -->
+
+
+    <!-- Youmax Call -->
+    <script>
+
+        $(document).ready(function(){
+
+            $(".youmax").youmax({
+                apiKey:"AIzaSyBciy6z-ZiSL4X2ik0FRZlfWcJUSD8DvFY",
+                // vimeoAccessToken:"c289d754a132ca07051aaf931ef0de33",
+                
+                channelLinkForHeader:"https://www.youtube.com/user/bodytimeXpress",
+                tabs:[
+                    // {
+                    //     name:"Uploads",
+                    //     type:"youtube-channel-uploads",
+                    //     link:"https://www.youtube.com/user/bodytimeXpress",
+                    //     //YouTube Channel Link needed here
+                    // },
+                    {
+                        name:"Playlists",
+                        type:"youtube-channel-playlists",
+                        link:"https://www.youtube.com/user/bodytimeXpress"
+                        //YouTube Channel Link needed here
+                    },
+                    // {
+                    //     name:"Videos",
+                    //     type:"youtube-playlist-videos",
+                    //     link:"https://www.youtube.com/playlist?list=PL6_h4dV9kuuIOBDKgxu3q9DpvvJFZ6fB5"
+                    //     //YouTube Playlist Link needed here
+                    // },
+                    // {
+                    //     name:"Vimeo",
+                    //     type:"vimeo-user-videos",
+                    //     link:"https://vimeo.com/proceq"
+                    //     //Vimeo User Link here
+                    // }
+                ],
+                defaultTab:"Playlists",         //Name of the Tab that should be displayed on your page start
+                videoDisplayMode:"popup",       //popup|link|inline
+
+                maxResults:"4",
+                autoPlay:false,
+                displayFirstVideoOnLoad:false,       //for inline video display mode only
+                
+
+                responsiveBreakpoints   :[600,900,2000,2500],
+
+                loadMoreText            :"<i class=\"fa fa-plus\"></i>&nbsp;&nbsp;Voir plus de videos..",
+                previousButtonText      :"<i class=\"fa fa-angle-left\"></i>&nbsp;&nbsp;Précédente",
+                nextButtonText          :"Suivante&nbsp;&nbsp;<i class=\"fa fa-angle-right\"></i>",
+                loadingText             :"chargement...",
+                allDoneText             :"<i class=\"fa fa-times\"></i>&nbsp;&nbsp;Il n'en reste plus",
+
+                hideHeader              :false,
+                hideTabs                :false,
+                hideLoadingMechanism    :false,
+
+
+            });
+        });
+
+
+    </script>
+    <!-- ends -->
+
+</body>
+</html>
